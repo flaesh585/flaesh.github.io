@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: Ubuntu, Arial;
+    margin: 0;
+}
+
+h1, h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0  auto;
+}
+
+.tableNames {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+table {
+    border: 3px solid hsl(130, 55%, 40%);
+    margin: 0 auto;
+    padding: 0;
+}
+
+th {
+    border-bottom: 1.5px solid hsl(130, 55%, 40%);
+    margin: 0;
+    padding: 7px;
+    background-color: hsla(55, 100%, 65%, 0.75);
+}
+
+td {
+    border-bottom: 1px solid hsl(130, 55%, 40%);
+    padding: 5px;
+}
+
+.lastTd {
+    border: medium none black !important;
+}
+
+.tableAttributes {
+    margin-bottom: 10%;
+}
